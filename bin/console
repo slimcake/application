@@ -1,0 +1,14 @@
+#!/usr/bin/env php
+<?php
+
+use Slimcake\Console\Shell;
+
+define('__ROOT__', dirname(__DIR__));
+
+require_once(__ROOT__ . '/vendor/autoload.php');
+require_once(__ROOT__ . '/etc/bootstrap.php');
+
+ini_set('memory_limit', -1);
+ini_set('max_execution_time', -1);
+
+Shell::dispatch($argv);
