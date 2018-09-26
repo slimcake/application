@@ -10,8 +10,8 @@
   },
   "require": {
     "php": ">=5.5",
-    "slimcake/core": "dev-master",
-    "slimcake/console": "dev-master",
-    "slimcake/templates": "dev-master"
+    "slimcake/core": "^v1.0.0",
+    "slimcake/console": "^v1.0.0",
+    "slimcake/templates": "^1.0.0"
   }
 }
